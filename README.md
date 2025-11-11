@@ -90,11 +90,7 @@ Common flags
 ```
 
 #### Examples
-Detect (verbose):
 
-```bash
-python3 ldapmap.py -u "http://127.0.0.1:8002/api.php?usernames=*" --dump
-```
 Time-based char brute:
 
 ```bash
