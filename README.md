@@ -1,4 +1,4 @@
-# LDAPMap — LDAP Injection Toolkit (v0.2)
+# LDAPMap — LDAP Injection Toolkit
 
 <p align="center">
   <img src="logo.png" width="280" alt="LDAPMap">
@@ -11,7 +11,7 @@
 > This tool is for **authorized penetration testing** and educational use only.  
 > Do **NOT** use LDAPMap against systems without **written permission**.
 
-## Features (v0.2)
+## Features
 
 - Heuristic detection with expanded LDAP payload set + encodings  
 - Response fingerprinting → `Length + SHA256`  
