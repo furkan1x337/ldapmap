@@ -29,7 +29,7 @@
 ### 1) Install
 
 ```bash
-git clone https://github.com/<your-github>/ldapmap.git
+git clone https://github.com/furkan1x337/ldapmap.git
 cd ldapmap
 chmod +x ldapmap.py
 python3 -m pip install requests
