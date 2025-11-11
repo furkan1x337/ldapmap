@@ -94,7 +94,7 @@ Common flags
 Time-based char brute:
 
 ```bash
-python3 ldapmap.py -u "http://127.0.0.1:8002/api.php?usernames=*" \
+python3 ldapmap.py -u "http://127.0.0.1:8000/api.php?usernames=*" \
   --charbrute uid --maxlen 16 --blind-mode time --blind-time 1.5 \
   --chars "abcdefghijklmnopqrstuvwxyz0123456789_-" -v
 ```
@@ -102,13 +102,13 @@ python3 ldapmap.py -u "http://127.0.0.1:8002/api.php?usernames=*" \
 Diff-based char brute:
 
 ```bash
-python3 ldapmap.py -u "http://127.0.0.1:8002/api.php?usernames=*" \
+python3 ldapmap.py -u "http://127.0.0.1:8000/api.php?usernames=*" \
   --charbrute uid --blind-mode diff -v
 ```
 Rate-limit & proxy (Burp):
 
 ```bash
-python3 ldapmap.py -u "https://lab.local/?q=*" --proxy http://127.0.0.1:8080 --rate 2 --insecure -v
+python3 ldapmap.py -u "http://127.0.0.1:8000/?q=*" --proxy http://127.0.0.1:8080 --rate 2 --insecure -v
 ```
 ## License
 This project is licensed under the GPL-3.0 License - see the LICENSE file for details.
