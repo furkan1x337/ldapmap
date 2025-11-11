@@ -2,7 +2,7 @@
 """
 LDAPMap
 
-added in v0.2:
+added:
  - JSON / XML / HTML parsing for structured extraction
  - Response fingerprinting via SHA256
  - Rate-limiting / delay controls
